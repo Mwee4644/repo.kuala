@@ -1,0 +1,70 @@
+<dir>
+     <name>Movies</name>
+     <link>file://movies.xml</link>
+     <animated_thumbnail></animated_thumbnail>
+     <thumbnail></thumbnail>
+     <animated_fanart></animated_fanart>
+     <fanart></fanart>
+</dir>
+
+<dir>
+     <name>Tv Shows</name>
+     <link>file://tv_shows.xml</link>
+     <animated_thumbnail></animated_thumbnail>
+     <thumbnail></thumbnail>
+     <animated_fanart></animated_fanart>
+     <fanart></fanart>
+</dir>
+
+<dir>
+  <name>Boxsets</name>
+  <link>file://boxsets.xml</link>
+  <thumbnail></thumbnail>
+  <animated_thumbnail></animated_thumbnail>
+  <summary></summary>
+</dir>
+
+<dir>
+  <name>Kids Boxsets</name>
+  <link>file://shared lists/kids_boxset.xml</link>
+  <thumbnail></thumbnail>
+  <animated_thumbnail></animated_thumbnail>
+  <summary></summary>
+</dir>
+
+<dir>
+   <title>Live Tv</title>
+   <link>file://live.xml</link>
+   <animated_thumbnail></animated_thumbnail>
+</dir>
+
+<dir>
+  <name>Music</name>
+  <link>file://music.xml</link>
+  <thumbnail></thumbnail>
+  <animated_thumbnail></animated_thumbnail>
+  <summary></summary>
+</dir>
+
+<dir>
+  <name>Documentaries</name>
+  <link>file://docs.xml</link>
+  <thumbnail></thumbnail>
+  <animated_thumbnail></animated_thumbnail>
+  <summary></summary>
+</dir>
+
+<plugin>
+   <name>Settings</name>
+   <link>plugin://plugin.video.firecat/?action=openSettings</link>
+   <thumbnail></thumbnail>
+</plugin>
+
+<dir>
+    <title>Search</title>
+	<tmdb>search</tmdb>
+	<animated_thumbnail/>
+	<thumbnail/>
+	<animated_fanart/>
+	<fanart/>
+</dir>

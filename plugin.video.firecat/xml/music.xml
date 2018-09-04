@@ -1,0 +1,9 @@
+    <dir>
+    <title>Search Artist</title>
+    <lastfm>search/artist</lastfm>
+    </dir>
+
+    <dir>
+    <title>Search Album</title>
+    <lastfm>search/album</lastfm>
+    </dir>

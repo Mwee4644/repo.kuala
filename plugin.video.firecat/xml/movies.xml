@@ -1,0 +1,77 @@
+<dir>
+	<title>Trending Movies</title>
+	<trakt>https://api.trakt.tv/movies/trending</trakt>
+	<thumbnail></thumbnail>
+</dir>
+
+
+<dir>
+	<title>Popular</title>
+	<tmdb>movies/popular</tmdb>
+	<thumbnail></thumbnail>
+</dir>
+
+
+<dir>
+	<title>Now Playing</title>
+	<tmdb>movies/now_playing</tmdb>
+	<thumbnail></thumbnail>
+</dir>
+
+
+<dir>
+	<title>Top Rated</title>
+	<tmdb>movies/top_rated</tmdb>
+	<thumbnail></thumbnail>
+</dir>
+
+
+<dir>
+	<title>Upcoming Movies</title>
+	<tmdb>movie/upcoming</tmdb>
+	<summary>Shows Trailers For Upcoming Movies</summary>
+	<thumbnail></thumbnail>
+</dir>
+
+
+<dir>
+	<title>Genres</title>
+	<link>file://shared lists/genre_movies.xml</link>
+	<thumbnail></thumbnail>
+</dir>
+
+
+<dir>
+	<title>Years</title>
+	<link>file://Years-Movie.xml</link>
+	<thumbnail></thumbnail>
+</dir>
+
+
+<item>
+<title>pair with sites</title>
+<pairwith>pairlist</pairwith>
+</item>
+
+
+<item>
+<title>pair with openload</title>
+<pairwith>openload</pairwith>
+</item>
+
+<item>
+<title>Pair With Streamango</title>
+<pairwith>streamango</pairwith>
+</item>
+
+<item>
+<title>Pair With Trakt</title>
+<pairwith>trakt</pairwith>
+</item>
+
+
+<dir>
+	<title>Search</title>
+	<tmdb>search</tmdb>
+	<thumbnail></thumbnail>
+</dir>

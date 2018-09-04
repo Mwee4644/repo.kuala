@@ -1,0 +1,78 @@
+<dir>
+	<title>On The Air</title>
+	<tmdb>tv/on_the_air</tmdb>
+	<summary>Shows Airing in Next 7 Days</summary>
+	<thumbnail></thumbnail>
+</dir>
+
+<dir>
+	<title>Genres</title>
+	<link>file://shared lists/genre_tv.xml</link>
+	<summary>Search Shows by Genre</summary>
+	<thumbnail></thumbnail>
+</dir>
+
+<dir>
+	<title>Airing Today</title>
+	<tmdb>tv/today</tmdb>
+	<thumbnail></thumbnail>
+</dir>
+
+<dir>
+	<title>Popular Shows</title>
+	<trakt>https://api.trakt.tv/shows/popular</trakt>
+	<thumbnail></thumbnail>
+</dir>
+
+<dir>
+	<title>Networks</title>
+	<link>file://networks.xml</link>
+	<summary></summary>
+	<thumbnail></thumbnail>
+</dir>
+
+<dir>
+
+	<title>Trending Shows</title>
+	<trakt>https://api.trakt.tv/shows/trending</trakt>
+	<thumbnail></thumbnail>
+</dir>
+
+<dir>
+	<title>Anticipated Shows</title>
+	<trakt>https://api.trakt.tv/shows/anticipated</trakt>
+	<thumbnail></thumbnail>
+</dir>
+
+<item>
+<title>pair with sites</title>
+<pairwith>pairlist</pairwith>
+</item>
+
+
+<item>
+<title>pair with openload</title>
+<pairwith>openload</pairwith>
+</item>
+
+
+<item>
+<title>Pair With Streamango</title>
+<pairwith>streamango</pairwith>
+</item>
+
+
+<item>
+<title>Pair With Trakt</title>
+<pairwith>trakt</pairwith>
+</item>
+
+
+<dir>
+	<title>Search</title>
+	<tmdb>search</tmdb>
+	<animated_thumbnail/>
+	<thumbnail/>
+	<animated_fanart/>
+	<fanart/>
+</dir>

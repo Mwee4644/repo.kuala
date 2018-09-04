@@ -1,0 +1,39 @@
+<dir>
+<title>[COLOR white]Sports Center[/COLOR]</title>
+<sport_stream>games</sport_stream>
+</dir>
+
+<plugin>
+<title>[COLOR white]Sports Channels[/COLOR]</title>
+<link>plugin://script.module.firecat.net/list_channels/1</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR white]Channels[/COLOR]</title>
+<link>plugin://script.module.firecat.net/list_channels/2</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR white]Movies[/COLOR]</title>
+<link>plugin://script.module.firecat.net/list_channels/9</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR white]Documentaries[/COLOR]</title>
+<link>plugin://script.module.firecat.net/list_channels/10</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR white]Kids[/COLOR]</title>
+<link>plugin://script.module.firecat.net/list_channels/6</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
