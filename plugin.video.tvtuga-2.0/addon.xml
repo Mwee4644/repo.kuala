@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<addon id="plugin.video.tvtuga" name="TvTugaTV" version="1.0" provider-name="tvtuga">
+<addon id="plugin.video.tvtuga" name="TvTugaIPTV" version="2.0" provider-name="TvTugaIPTV">
 
   <requires>
 
@@ -35,7 +35,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">TvTugaTV</summary>
 
-    <description lang="en">TvTugaTV</description>
+    <description lang="en">TvTugaMilhano</description>
     <platform>all</platform>
  
  </extension>
