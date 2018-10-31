@@ -1,91 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-
-<addon id="plugin.video.Martunis" name="Martunis" version="1.0.0" provider-name="Martunis">
-
-  <requires>
-
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-
-    <import addon="script.module.beautifulsoup4"/>
-
-    <import addon="script.module.requests"/>
-
-    <import addon="script.module.httplib2"/>
-
-    <import addon="script.module.youtube.dl" optional="true"/>
-
-    <import addon="plugin.video.youtube"/>
-
-    <import addon="script.module.urlresolver" optional="true"/>
-
-    <import addon="script.module.simplejson"/>
-
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-
-        <provides>video</provides>
-
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">TV Online</summary>
-
-    <description lang="en">TV ONLINE BY:Martunis</description>
-    <platform>all</platform>
-
- </extension>
-
-</addon>
-
-
-<addon id="plugin.video.SexFactor" name="SexFactor" version="1.0.0" provider-name="SexFactor">
-
-  <requires>
-
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-
-    <import addon="script.module.beautifulsoup4"/>
-
-    <import addon="script.module.requests"/>
-
-    <import addon="script.module.httplib2"/>
-
-    <import addon="script.module.youtube.dl" optional="true"/>
-
-    <import addon="plugin.video.youtube"/>
-
-    <import addon="script.module.urlresolver" optional="true"/>
-
-    <import addon="script.module.simplejson"/>
-
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-
-        <provides>video</provides>
-
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">TV Online</summary>
-
-    <description lang="en">TV ONLINE BY:SexFactor</description>
-    <platform>all</platform>
-
- </extension>
-
-</addon>
-
 <addon id="plugin.video.aceboxtv"
        name="AceBoxTV"
        version="3.0"
@@ -118,47 +32,27 @@
   </extension>
 </addon>
 
-
-<addon id="plugin.video.alado" name="ALADO" version="1.1" provider-name="alado">
-
+<addon id="plugin.video.alado" name="ALADO" version="1.6" provider-name="alado">
   <requires>
-
     <import addon="xbmc.python" version="2.1.0"/>
-
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
-
     <import addon="script.module.simple.downloader" version="0.9.4"/>
-
     <import addon="script.module.beautifulsoup4"/>
-
     <import addon="script.module.requests"/>
-
     <import addon="script.module.httplib2"/>
-
     <import addon="script.module.youtube.dl" optional="true"/>
-
     <import addon="plugin.video.youtube"/>
-
     <import addon="script.module.urlresolver" optional="true"/>
-
     <import addon="script.module.simplejson"/>
-
   </requires>
-
   <extension point="xbmc.python.pluginsource" library="default.py">
-
-        <provides>video</provides>
-
+    <provides>video</provides>
   </extension>
-
   <extension point="xbmc.addon.metadata">
     <summary lang="en">alado</summary>
-
     <description lang="en">alado</description>
     <platform>all</platform>
-
  </extension>
-
 </addon>
 
 <addon id="plugin.video.exodus" version="6.0.0" name="Exodus" provider-name="Exodus">
@@ -271,6 +165,20 @@ Fixed search issue caused by character accents
   <extension point="xbmc.addon.metadata">
     <summary lang="en">[COLORorange][B]Flecha Negra Ã© um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/COLOR][/B]</summary>
     <description lang="en">[COLORorange][B]Flecha Negra Ã© um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/COLOR][/B]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.guiadoluiz" name="Guia do Luiz" version="1.0.0" provider-name="Kodish MC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Guia do Luiz</summary>
+    <description lang="en">Lista do Luiz aqui pack de todas listas</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -661,7 +569,7 @@ For updates check the readme.
 </addon>
 
 
-<addon id="plugin.video.tvtuga" name="TvTugaTV" version="1.0" provider-name="tvtuga">
+<addon id="plugin.video.tvtuga" name="TvTugaIPTV" version="2.0" provider-name="TvTugaIPTV">
 
   <requires>
 
@@ -696,7 +604,7 @@ For updates check the readme.
   <extension point="xbmc.addon.metadata">
     <summary lang="en">TvTugaTV</summary>
 
-    <description lang="en">TvTugaTV</description>
+    <description lang="en">TvTugaMilhano</description>
     <platform>all</platform>
 
  </extension>
@@ -883,6 +791,20 @@ For updates check the readme.
 	<extension point="xbmc.addon.metadata">
 		<summary>Welcome to the Jesusbox Repository where you will find all Jesusbox produced Addon-ons and wizards</summary>
 		<description>The Best Media Center Box Available</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.mrpiracy" name="MrPiracy.top RepositÃ³rio" version="1.0.3" provider-name="MrPiracy.top">
+	<extension point="xbmc.addon.repository" name="MrPiracy Repository">
+		<info compressed="false">http://raw.github.com/mrpiracyPT/repository.mrpiracy/master/addons.xml</info>
+		<checksum>http://raw.github.com/mrpiracyPT/repository.mrpiracy/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/mrpiracyPT/repository.mrpiracy/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>MrPiracy.top RepositÃ³rio</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
